@@ -8,5 +8,4 @@ navToggle.addEventListener("click", () => {
     : navToggle.setAttribute("aria-expanded", true);
   primaryNav.toggleAttribute("data-visible");
   primaryHeader.toggleAttribute("data-overlay");
-  navToggle.toggleAttribute("data-close-visible");
 });
